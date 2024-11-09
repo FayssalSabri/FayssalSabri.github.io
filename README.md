@@ -1,14 +1,24 @@
-# Mon Portfolio Data Science
+# Portfolio de Fayssal Sabri
 
-Bienvenue sur mon portfolio de Data Science ! Ici, vous trouverez mes projets, mes compétences, et mes réalisations dans le domaine de l'intelligence artificielle et de la science des données.
+Bienvenue sur mon portfolio de Data Science ! Vous y trouverez mes projets, mes compétences, et mes certifications dans le domaine de la science des données et de l'intelligence artificielle.
 
-📄 [Accédez à mon portfolio en ligne](https://fayssalsabri.github.io/)
+🌐 [Accéder à mon portfolio en ligne](https://fayssalsabri.github.io/)
 
-## Contenu
+## À propos de moi
+Je suis étudiant en double diplôme en Génie Industriel avec une spécialisation en Intelligence Artificielle et Data Science. Passionné par la résolution de problèmes complexes, je recherche un stage de fin d’études pour appliquer mes compétences en data science et machine learning dans un contexte industriel.
 
-- **Projets** : Aperçu de mes projets en data science, apprentissage automatique, et visualisation de données.
-- **Compétences** : Mes compétences en programmation, analyse de données, et utilisation des outils.
-- **Certifications** : Liste de mes certifications obtenues dans le domaine de la data science.
-- **Contact** : Comment me contacter.
+## Projets
+- **SMARTCANCER DETECTOR** : Interface de prédiction des cancers pour une détection précoce.
+- **Analyse de l'exposition à l'ozone** : Étude de corrélations entre exposition à l'ozone et naissances prématurées en France.
+- **Analyse des fuites d'eau dans les pare-brises** : Projet réalisé chez Renault pour optimiser la qualité des pare-brises.
 
-Merci de votre visite !
+## Compétences
+- **Langages** : Python, SQL, MATLAB, Java
+- **Outils de Data Science** : Scikit-learn, TensorFlow, Keras
+- **Big Data** : Spark, Hadoop
+- **Visualisation de données** : Tableau, Power BI, Matplotlib
+
+## Contact
+- 📧 Email : [fayssal.sabri@etu.ec-lyon.fr](mailto:fayssal.sabri@etu.ec-lyon.fr)
+- 📄 [LinkedIn](https://linkedin.com/in/fayssal-sabri-79b98a247)
+
