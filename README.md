@@ -46,6 +46,7 @@ Mon objectif est de contribuer à l'innovation dans le secteur industriel en met
 - **SQL + Tableau** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-E5EA340A82/)
 - **Advanced SQL** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-FF10CFFD9D/)
 - **Git and GitHub** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-6FB9E230D9/)
+- **Lean Waste Management: Strategies for Streamlining Processes** - Udemy - [Voir la certification](https://www.udemy.com/certificate/UC-dc3a939a-da08-4b01-940b-e998e49cc4a5/)
 
 ## Contact
 Vous pouvez me contacter par email ou me retrouver sur LinkedIn :
