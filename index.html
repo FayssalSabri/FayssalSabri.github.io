@@ -200,10 +200,72 @@
         <!-- Compétences -->
         <section class="section" id="skills">
             <h2>Compétences</h2>
-            <p><strong>Langages de programmation :</strong> Python, SQL, JavaScript</p>
-            <p><strong>Technologies et outils :</strong> TensorFlow, QGIS, Tableau, Git</p>
-            <p><strong>Compétences analytiques :</strong> Analyse de données, Machine Learning, Visualisation des données</p>
+            <div class="skills-container">
+                <!-- Compétences techniques -->
+                <div class="skill-category">
+                    <h3>Langages de programmation</h3>
+                    <ul>
+                        <li>Python <span class="icon">🐍</span></li>
+                        <li>SQL <span class="icon">🔲</span></li>
+                        <li>JavaScript <span class="icon">🌐</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Compétences en outils et technologies -->
+                <div class="skill-category">
+                    <h3>Technologies et outils</h3>
+                    <ul>
+                        <li>TensorFlow <span class="icon">🤖</span></li>
+                        <li>QGIS <span class="icon">🌍</span></li>
+                        <li>Tableau <span class="icon">📊</span></li>
+                        <li>Git <span class="icon">💻</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Compétences analytiques -->
+                <div class="skill-category">
+                    <h3>Compétences analytiques</h3>
+                    <ul>
+                        <li>Analyse de données <span class="icon">📈</span></li>
+                        <li>Machine Learning <span class="icon">🤖</span></li>
+                        <li>Visualisation des données <span class="icon">📊</span></li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        
+        <style>
+            .skills-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 2em;
+                margin-top: 2em;
+            }
+        
+            .skill-category h3 {
+                color: #0a9396;
+                font-size: 1.5em;
+                margin-bottom: 1em;
+            }
+        
+            .skill-category ul {
+                list-style-type: none;
+                padding: 0;
+            }
+        
+            .skill-category li {
+                font-size: 1.1em;
+                margin-bottom: 0.8em;
+                display: flex;
+                align-items: center;
+                gap: 0.5em;
+            }
+        
+            .skill-category li .icon {
+                font-size: 1.5em;
+            }
+        </style>
+        
 
         <!-- Certifications -->
         <section class="section" id="certifications">
