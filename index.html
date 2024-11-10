@@ -7,51 +7,129 @@
     <style>
         /* Styles de base */
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #333;
             background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
         }
+
+        /* En-tête et pied de page */
         header, footer {
-            background-color: #333;
+            background-color: #005f73;
             color: #fff;
-            padding: 1em;
+            padding: 1.5em 0;
             text-align: center;
         }
-        h1 {
-            color: #005f73;
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
         }
-        h2 {
-            color: #0a9396;
+
+        footer p {
+            font-size: 0.9em;
+            margin: 0;
         }
+
+        /* Container et sections */
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
             padding: 2em;
         }
+
         .section {
-            margin-bottom: 2em;
+            margin-bottom: 2.5em;
         }
+
+        .section h2 {
+            color: #005f73;
+            font-size: 1.8em;
+            border-bottom: 2px solid #0a9396;
+            padding-bottom: 0.3em;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Liens et boutons */
         a {
             color: #0a9396;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
-        /* Style des boutons */
+
         .button {
             display: inline-block;
-            padding: 0.5em 1em;
-            margin-top: 1em;
-            color: white;
+            padding: 0.7em 1.2em;
+            color: #fff;
             background-color: #0a9396;
-            border: none;
             border-radius: 4px;
             text-decoration: none;
+            transition: background-color 0.3s ease;
         }
+
         .button:hover {
+            background-color: #005f73;
+        }
+
+        /* Style des projets */
+        .projet {
+            background-color: #e0fbfc;
+            padding: 1.5em;
+            margin-bottom: 1.5em;
+            border-left: 5px solid #005f73;
+            border-radius: 5px;
+        }
+
+        .projet h3 {
+            margin-top: 0;
+            color: #0a9396;
+            font-size: 1.4em;
+        }
+
+        .date {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        /* Certifications */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+        }
+
+        /* Formulaire de contact */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        form input, form textarea {
+            padding: 0.8em;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            background-color: #0a9396;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
             background-color: #005f73;
         }
     </style>
@@ -60,141 +138,124 @@
 
     <!-- En-tête -->
     <header>
-        <h1>Fayssal Sabri - Data Scientist Portfolio</h1>
-        <nav>
-            <a href="#À propos de moi">À propos de moi</a>
-            <a href="#projets">Projets</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>Fayssal Sabri - Data Scientist</h1>
+        <p>Élève ingénieur en Génie Industriel et Data Science, passionné par l'IA appliquée à l'industrie.</p>
     </header>
-    
 
     <!-- Contenu principal -->
     <div class="container">
         
         <!-- À propos de moi -->
-    <div class="section">
-    <h2>À propos de moi</h2>
-        <p>
-            Bonjour, je suis <strong>Fayssal Sabri</strong>, élève ingénieur en double diplôme en <strong>Génie Industriel</strong> à l'École Centrale de Lyon et à l'École Nationale Supérieure des Arts et Métiers de Meknès (ENSAM), avec une spécialisation en <strong>Intelligence Artificielle</strong> et <strong>Data Science</strong>. Passionné par les technologies émergentes et leur application dans l'industrie, je me spécialise dans l'intégration de solutions d'intelligence artificielle pour résoudre des problèmes complexes et améliorer les processus industriels.
-        </p>
-        <p>
-            Mon parcours académique m'a permis de développer des compétences solides en analyse de données, apprentissage automatique, et optimisation des processus. Je suis également certifié en <strong>Machine Learning</strong> et <strong>Deep Learning</strong>, et j'ai eu l'opportunité de travailler sur des projets innovants dans le domaine de la santé, de l'environnement, et de l'automobile.
-        </p>
-        <p>
-            Mon objectif professionnel est de contribuer à l'innovation dans le secteur industriel, en mettant à profit mes compétences en <strong>data science</strong> et <strong>machine learning</strong> pour améliorer la prise de décision, optimiser les performances et anticiper les défis à venir. Je suis également intéressé par les applications de l'IA pour la prévision des tendances, l'analyse prédictive et la gestion des risques.
-        </p>
-        <p>
-            En tant que passionné de <strong>data science</strong> et <strong>intelligence artificielle</strong>, je suis constamment en quête de nouvelles opportunités pour apprendre et évoluer. Je recherche actuellement un stage de fin d’études où je pourrai appliquer mes compétences techniques et contribuer à des projets concrets d'envergure.
-        </p>
-        <p>
-            Si vous êtes intéressé par mes compétences ou souhaitez discuter d'opportunités professionnelles, n'hésitez pas à me contacter.
-        </p>
-    </div>
-
+        <section class="section" id="about">
+            <h2>À propos de moi</h2>
+            <p>Je suis <strong>Fayssal Sabri</strong>, élève ingénieur en double diplôme en <strong>Génie Industriel</strong> à l'École Centrale de Lyon et à l'ENSAM-Meknès, spécialisé en <strong>Data Science</strong> et <strong>Intelligence Artificielle</strong>. Mon expertise comprend l’intégration de solutions IA pour améliorer la prise de décision et l'efficacité des processus industriels.</p>
+            <p>En quête constante d'innovation, j'ai contribué à des projets en santé, environnement, et automobile, tout en cherchant à faire progresser mes compétences dans les domaines du <strong>machine learning</strong> et de la <strong>science des données</strong>.</p>
+        </section>
 
         <!-- Projets -->
-        <section id="projets">
+        <section class="section" id="projects">
             <h2>Projets</h2>
-        
-            <!-- Projet 1: Analyse de la Vulnérabilité aux Inondations -->
+            
             <div class="projet">
                 <h3>Analyse de la Vulnérabilité aux Inondations dans le Département de la Sarthe</h3>
                 <span class="date">09/2024 – 11/2024</span>
-                <p><strong>Description :</strong> Ce projet consistait en une étude approfondie des risques d'inondation dans le département de la Sarthe. En utilisant QGIS, des cartes d’aléas et d’enjeux ont été élaborées pour mieux comprendre les zones à risque et les impacts potentiels sur les populations et les infrastructures. Le travail a permis de fournir des recommandations pratiques pour améliorer la gestion des risques, optimiser les stratégies de prévention et renforcer la planification urbaine face aux inondations.</p>
-                <p><strong>Compétences développées :</strong> Cartographie des risques, analyse géospatiale, gestion des risques, planification urbaine, utilisation de QGIS.</p>
-            </div>
-        
-            <!-- Projet 2: Apprentissage par imitation dans des équipes multi-agent -->
-            <div class="projet">
-                <h3>Projet métier : Développement d'un environnement de simulation pour l'apprentissage par imitation dans des équipes multi-agent (Soccer Twos)</h3>
-                <span class="date">2024</span>
-                <p><strong>Description :</strong> Le projet a porté sur le <strong>développement d'un environnement de simulation</strong>, <strong>Soccer Twos</strong>, visant à étudier l'apprentissage par imitation dans des systèmes multi-agents. Ce projet a permis de créer une plateforme où deux agents apprennent à coopérer dans un jeu de football en observant et en imitant les comportements de leur coéquipier. L'objectif principal était de favoriser l'optimisation de la coopération et de la coordination entre agents, afin d'améliorer leur efficacité et de résoudre des problématiques complexes dans des environnements dynamiques. L'approche a permis d'explorer la dynamique de coopération dans des contextes où les agents doivent ajuster leurs stratégies pour atteindre un objectif commun, comme dans des équipes de robots ou des simulations stratégiques.</p>
-                <p><strong>Compétences développées :</strong> Modélisation d'agents et de comportements, apprentissage par imitation, simulation multi-agent, développement d'environnements de simulation, optimisation des interactions entre agents, programmation en Python, analyse et résolution de problèmes complexes dans des systèmes dynamiques.</p>
+                <p>Étude des risques d'inondation via QGIS, incluant des cartes d’aléas pour une meilleure gestion des risques et optimisation de la planification urbaine.</p>
             </div>
             
-        
-            <!-- Projet 3: SMARTCANCER DETECTOR -->
             <div class="projet">
-                <h3>Projet IA : Création d’une interface SMARTCANCER DETECTOR pour la prédiction des cancers</h3>
+                <h3>Développement d'un Environnement de Simulation Multi-Agent (Soccer Twos)</h3>
                 <span class="date">2024</span>
-                <p><strong>Description :</strong> Le projet SMARTCANCER DETECTOR est une plateforme développée pour aider à la détection précoce des cancers du sein, de la peau et du poumon. En utilisant des techniques d'intelligence artificielle, cette interface vise à analyser des images médicales afin d'identifier des signes précoces de cancer. L’objectif était de créer un outil de soutien à la décision pour les professionnels de santé, leur permettant de diagnostiquer plus efficacement et plus rapidement.</p>
-                <p><strong>Compétences développées :</strong> Intelligence artificielle, traitement d'images médicales, développement d'interface utilisateur, diagnostic médical, machine learning, Python, TensorFlow.</p>
-                <p><strong>Voir le projet sur GitHub :</strong> <a href="https://github.com/FayssalSabri/SmartCancerDetector" target="_blank">SmartCancerDetector sur GitHub</a></p>
+                <p>Création d’un environnement de simulation en Python pour l'apprentissage par imitation dans des équipes de robots simulés, visant à optimiser la coopération entre agents.</p>
             </div>
             
+            <div class="projet">
+                <h3>SMARTCANCER DETECTOR</h3>
+                <span class="date">2023</span>
+                <p>Développement d’une interface d'IA pour la détection précoce de cancers via l’analyse d’images médicales.</p>
+                <p><a href="https://github.com/FayssalSabri/SmartCancerDetector" target="_blank" class="button">Voir sur GitHub</a></p>
+            </div>
         </section>
-        
+
+        <!-- Compétences -->
+        <section class="section" id="skills">
+            <h2>Compétences</h2>
+            <p><strong>Langages de programmation :</strong> Python, SQL, JavaScript</p>
+            <p><strong>Technologies et outils :</strong> TensorFlow, QGIS, Tableau, Git</p>
+            <p><strong>Compétences analytiques :</strong> Analyse de données, Machine Learning, Visualisation des données</p>
+        </section>
 
         <!-- Certifications -->
-        <div class="section">
-        <h2>Certifications</h2>
-        <ul>
-        <li>
-            <strong>Machine Learning with Python</strong> - IBM (Coursera) 
-            - <a href="https://coursera.org/share/9ff42ba476fb676865b79181aa9058a3" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Python for Data Science, AI & Development</strong> - IBM (Coursera) 
-            - <a href="https://coursera.org/share/7ca58c49d166d906f92dfea6bedd0fdb" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Supervised Machine Learning: Regression and Classification</strong> - Stanford (Coursera) 
-            - <a href="https://coursera.org/share/b78414785699f39dad4341cc36a61e05" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Advanced Learning Algorithms</strong> - Stanford (Coursera) 
-            - <a href="https://coursera.org/share/1f1f23f28eac340ada961f73be657ecd" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Unsupervised Learning, Recommenders, Reinforcement Learning</strong> - Stanford (Coursera) 
-            - <a href="https://coursera.org/share/d4e940e93fb69db9d88c25097b87d70b" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Introduction to Deep Learning & Neural Networks with Keras</strong> - IBM (Coursera) 
-            - <a href="https://learn.365datascience.com/certificates/CC-1DB0AEE681/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>SQL + Tableau</strong> - 365 Data Science 
-            - <a href="https://learn.365datascience.com/certificates/CC-E5EA340A82/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Advanced SQL</strong> - 365 Data Science 
-            - <a href="https://learn.365datascience.com/certificates/CC-FF10CFFD9D/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Git and GitHub</strong> - 365 Data Science 
-            - <a href="https://learn.365datascience.com/certificates/CC-6FB9E230D9/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong> Certified Lean Management Professional : Comprehensive Guide </strong> - Udemy 
-            - <a href="https://www.udemy.com/certificate/UC-7553a73d-7a62-4d32-983f-20b2d6f470ca/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Lean Waste Management: Strategies for Streamlining Processes</strong> - Udemy 
-            - <a href="https://www.udemy.com/certificate/UC-dc3a939a-da08-4b01-940b-e998e49cc4a5/" target="_blank">Voir la certification</a>
-        </li>
-        <li>
-            <strong>Kanban+Agile Kanban Productivity & Efficiency+Agile Scrum</strong> - Udemy 
-            - <a href="https://www.udemy.com/certificate/UC-9cd64e94-cdd1-43b3-a548-d1cf5ed2f1d6/" target="_blank">Voir la certification</a>
-        </li>
-        </ul>
-        </div>
-
+        <section class="section" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>
+                    <strong>Machine Learning with Python</strong> - IBM (Coursera) 
+                    - <a href="https://coursera.org/share/9ff42ba476fb676865b79181aa9058a3" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Python for Data Science, AI & Development</strong> - IBM (Coursera) 
+                    - <a href="https://coursera.org/share/7ca58c49d166d906f92dfea6bedd0fdb" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Supervised Machine Learning: Regression and Classification</strong> - Stanford (Coursera) 
+                    - <a href="https://coursera.org/share/b78414785699f39dad4341cc36a61e05" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Advanced Learning Algorithms</strong> - Stanford (Coursera) 
+                    - <a href="https://coursera.org/share/1f1f23f28eac340ada961f73be657ecd" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Unsupervised Learning, Recommenders, Reinforcement Learning</strong> - Stanford (Coursera) 
+                    - <a href="https://coursera.org/share/d4e940e93fb69db9d88c25097b87d70b" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Introduction to Deep Learning & Neural Networks with Keras</strong> - IBM (Coursera) 
+                    - <a href="https://learn.365datascience.com/certificates/CC-1DB0AEE681/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>SQL + Tableau</strong> - 365 Data Science 
+                    - <a href="https://learn.365datascience.com/certificates/CC-E5EA340A82/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Advanced SQL</strong> - 365 Data Science 
+                    - <a href="https://learn.365datascience.com/certificates/CC-FF10CFFD9D/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Git and GitHub</strong> - 365 Data Science 
+                    - <a href="https://learn.365datascience.com/certificates/CC-6FB9E230D9/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong> Certified Lean Management Professional : Comprehensive Guide </strong> - Udemy 
+                    - <a href="https://www.udemy.com/certificate/UC-7553a73d-7a62-4d32-983f-20b2d6f470ca/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Lean Waste Management: Strategies for Streamlining Processes</strong> - Udemy 
+                    - <a href="https://www.udemy.com/certificate/UC-dc3a939a-da08-4b01-940b-e998e49cc4a5/" target="_blank">Voir la certification</a>
+                </li>
+                <li>
+                    <strong>Kanban+Agile Kanban Productivity & Efficiency+Agile Scrum</strong> - Udemy 
+                    - <a href="https://www.udemy.com/certificate/UC-9cd64e94-cdd1-43b3-a548-d1cf5ed2f1d6/" target="_blank">Voir la certification</a>
+                </li>
+            </ul>
+        </section>
 
         <!-- Contact -->
-        <div class="section">
+        <section class="section" id="contact">
             <h2>Contact</h2>
-            <p>Vous pouvez me retrouver sur :</p>
-            <p><a href="https://www.linkedin.com/in/fayssal-sabri-79b98a247" target="_blank">LinkedIn</a> | <a href="mailto:fayssal.sabri@etu.ec-lyon.fr">Email</a></p>
-        </div>
-        
+            <p>N'hésitez pas à me contacter pour toute opportunité professionnelle ou collaboration.</p>
+            <form action="mailto:fayssal.sabri@etu.ec-lyon.fr" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" rows="4" placeholder="Votre message" required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
     </div>
 
     <!-- Pied de page -->
     <footer>
-        <p>© 2024 Fayssal Sabri</p>
+        <p>© 2024 Fayssal Sabri | <a href="https://www.linkedin.com/in/fayssal-sabri-79b98a247" target="_blank">LinkedIn</a></p>
     </footer>
 
 </body>
