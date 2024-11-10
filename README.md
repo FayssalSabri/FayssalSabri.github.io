@@ -46,7 +46,7 @@ Mon objectif est de contribuer à l'innovation dans le secteur industriel en met
 - **SQL + Tableau** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-E5EA340A82/)
 - **Advanced SQL** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-FF10CFFD9D/)
 - **Git and GitHub** - 365 Data Science - [Voir la certification](https://learn.365datascience.com/certificates/CC-6FB9E230D9/)
-- ** Certified Lean Management Professional : Comprehensive Guide ** - Udemy - [Voir la certification](https://www.udemy.com/certificate/UC-7553a73d-7a62-4d32-983f-20b2d6f470ca/)
+- **Certified Lean Management Professional : Comprehensive Guide** - Udemy - [Voir la certification](https://www.udemy.com/certificate/UC-7553a73d-7a62-4d32-983f-20b2d6f470ca/)
 - **Lean Waste Management: Strategies for Streamlining Processes** - Udemy - [Voir la certification](https://www.udemy.com/certificate/UC-dc3a939a-da08-4b01-940b-e998e49cc4a5/)
 - **Kanban+Agile Kanban Productivity & Efficiency+Agile Scrum** - Udemy - [Voir la certification](https://www.udemy.com/certificate/UC-9cd64e94-cdd1-43b3-a548-d1cf5ed2f1d6/)
 
