@@ -225,24 +225,64 @@
         <section class="section" id="skills">
             <h2>Compétences</h2>
             <div class="skills-container">
-                <!-- Compétences techniques -->
+                <!-- Langages de programmation -->
                 <div class="skill-category">
                     <h3>Langages de programmation</h3>
                     <ul>
                         <li>Python <span class="icon">🐍</span></li>
-                        <li>SQL <span class="icon">🔲</span></li>
-                        <li>JavaScript <span class="icon">🌐</span></li>
+                        <li>R <span class="icon">📊</span></li>
+                        <li>MATLAB <span class="icon">💻</span></li>
+                        <li>Java <span class="icon">🌐</span></li>
+                        <li>C, C++ <span class="icon">🔧</span></li>
+                        <li>C# <span class="icon">⚙️</span></li>
                     </ul>
                 </div>
         
-                <!-- Compétences en outils et technologies -->
+                <!-- Bases de données et Big Data -->
                 <div class="skill-category">
-                    <h3>Technologies et outils</h3>
+                    <h3>Bases de données et Big Data</h3>
                     <ul>
+                        <li>SQL <span class="icon">🔲</span></li>
+                        <li>SparQL <span class="icon">🔗</span></li>
+                        <li>Spark <span class="icon">🔥</span></li>
+                        <li>Hadoop <span class="icon">🗃️</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Modélisation, Machine Learning et Deep Learning -->
+                <div class="skill-category">
+                    <h3>Modélisation & Machine Learning</h3>
+                    <ul>
+                        <li>Machine Learning <span class="icon">🤖</span></li>
+                        <li>Deep Learning <span class="icon">🧠</span></li>
+                        <li>Réseaux de neurones profonds <span class="icon">🌐</span></li>
+                        <li>Apprentissage supervisé et non supervisé <span class="icon">🔍</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Outils de Data Science et Visualisation -->
+                <div class="skill-category">
+                    <h3>Outils de Data Science & Visualisation</h3>
+                    <ul>
+                        <li>Pandas <span class="icon">📚</span></li>
+                        <li>NumPy <span class="icon">🔢</span></li>
+                        <li>Scikit-learn <span class="icon">📦</span></li>
                         <li>TensorFlow <span class="icon">🤖</span></li>
-                        <li>QGIS <span class="icon">🌍</span></li>
+                        <li>Keras <span class="icon">⚙️</span></li>
+                        <li>Matplotlib <span class="icon">📉</span></li>
+                        <li>Seaborn <span class="icon">🌈</span></li>
+                        <li>Power BI <span class="icon">📊</span></li>
                         <li>Tableau <span class="icon">📊</span></li>
-                        <li>Git <span class="icon">💻</span></li>
+                        <li>QGIS <span class="icon">🌍</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Outils d'optimisation -->
+                <div class="skill-category">
+                    <h3>Outils d'Optimisation</h3>
+                    <ul>
+                        <li>CPLEX <span class="icon">📈</span></li>
+                        <li>Minizinc <span class="icon">⚙️</span></li>
                     </ul>
                 </div>
         
@@ -250,9 +290,19 @@
                 <div class="skill-category">
                     <h3>Compétences analytiques</h3>
                     <ul>
-                        <li>Analyse de données <span class="icon">📈</span></li>
-                        <li>Machine Learning <span class="icon">🤖</span></li>
-                        <li>Visualisation des données <span class="icon">📊</span></li>
+                        <li>Analyse prédictive et statistique <span class="icon">📊</span></li>
+                        <li>Traitement des données massives (Big Data) <span class="icon">💡</span></li>
+                        <li>Conception de modèles d’IA pour l’industrie <span class="icon">🏭</span></li>
+                    </ul>
+                </div>
+        
+                <!-- Qualités personnelles -->
+                <div class="skill-category">
+                    <h3>Qualités personnelles</h3>
+                    <ul>
+                        <li>Travail en équipe <span class="icon">🤝</span></li>
+                        <li>Bon relationnel <span class="icon">💬</span></li>
+                        <li>Curiosité technique <span class="icon">🔍</span></li>
                     </ul>
                 </div>
             </div>
@@ -288,7 +338,18 @@
             .skill-category li .icon {
                 font-size: 1.5em;
             }
+        
+            /* Responsive styles */
+            @media (max-width: 768px) {
+                .skills-container {
+                    grid-template-columns: 1fr;
+                }
+                .skill-category h3 {
+                    font-size: 1.3em;
+                }
+            }
         </style>
+        
         
 
         <!-- Certifications -->
